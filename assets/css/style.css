@@ -51,6 +51,8 @@ html{
   margin-top: 23px;
   border: none;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .btn:hover{
