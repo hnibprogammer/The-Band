@@ -1,0 +1,160 @@
+/* Mobile */
+@media (max-width: 740px){
+
+  .s-text-center {
+    text-align: center;
+  }
+
+  .s-full-width {
+    width: 100% !important;
+  }
+
+  #nav  {
+    display: block;
+  }
+
+  #nav li { 
+    display: block;
+  }
+
+  #nav li a {
+    padding: 1px 24px;
+  }
+  
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 41px;
+  }
+
+  #nav>li:first-child{
+    display: inline-block;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn{
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    float: right;
+    line-height: 46px;
+    padding: 0 21px;
+  }
+  
+  #header .mobile-menu-btn:hover {
+    background: #ccc;
+    color: black;
+  }
+
+  #header .ti-menu {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  #header .ti-menu:hover {
+    color: #000;
+  }
+
+  #content .mobile-member-items{
+    width: 100%; 
+    margin-top: 30px;
+  }
+
+  #content .mobile-member-items .member-img{
+    width: 60%;
+  }
+
+  .mobile-tour-config{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .mobile-contact-content{
+    width: 100%;
+  }
+
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px;
+  }
+
+  .contact-form 
+  {
+    margin-top: 16px;
+  }
+}
+
+/* PC */
+@media (min-width: 1024px){
+  #header .mobile-menu-btn {
+    display: none;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1024px){
+  #header .mobile-menu-btn {
+    display: none;
+  }
+
+  #nav .subnav a {
+    padding: 5px 12px;
+  }
+
+  .t-full-width {
+    width: 100%;
+  }
+
+  .t-col-full {
+    width: 100%;
+  }
+
+  .t-mt-8 {
+    margin-top: 8px;
+  }
+
+  .t-full-width{
+    width: 100%;
+  }
+
+  .t-text-center {
+    text-align: center;
+  }
+
+  .place-list .btn {
+    padding: 16px 16px;
+  }
+
+  #contact .btn {
+    padding: 16px 16px;
+  }
+
+  .contact-form .form-control {
+    padding: 16px;
+  }
+
+  .socials-list a{
+    padding-left: 8px;
+  }
+
+  #footer .copy-right a{
+    padding: 8px 0;
+    display: inline-block;
+  }
+
+  .contact-content p {
+    line-height: 2.3;
+  }
+}
